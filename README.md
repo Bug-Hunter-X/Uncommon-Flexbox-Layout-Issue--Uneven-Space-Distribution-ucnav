@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon issue encountered with CSS flexbox layouts where space distribution amongst child elements within a flex container does not occur as expected. The `bug.css` file shows the erroneous code, leading to overlapping elements and ignoring the `flex-grow` property. The solution is provided in `bugSolution.css`. 
