@@ -1,0 +1,16 @@
+The issue was resolved by ensuring that the parent container had a defined height and that all child elements had a minimum width set to prevent the container from collapsing.  The correct use of `flex-grow` was also verified. Here's the corrected CSS code:
+
+```css
+.container {
+  display: flex;
+  height: 300px; /* Defined height is crucial */
+  justify-content: space-around;
+}
+
+.item {
+  flex-grow: 1;
+  min-width: 100px; /* Prevents collapse */
+  background-color: lightblue;
+  padding: 10px;
+}
+```
